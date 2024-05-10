@@ -54,7 +54,7 @@ fun FoldingCellContent() {
                         requestDeadline = "06 : 30 PM",
                         request = "2",
                         pledge = "$150",
-                        weight = "light",
+                        weight = "heavy",
                         onExpand = {
                             ticketState.value = TicketState.UNFOLDED
                         }
@@ -70,7 +70,7 @@ fun FoldingCellContent() {
                         requestDeadline = "10th June 2021",
                         request = "2",
                         pledge = "$150",
-                        weight = "light",
+                        weight = "heavy",
                         onFold = {
                             ticketState.value = TicketState.FOLDED
                         }
